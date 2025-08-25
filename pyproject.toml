@@ -44,9 +44,5 @@ build-backend = "hatchling.build"
 [project.scripts]
 state = "state.__main__:main"
 
-[tool.pyright]
-venvPath = "."
-venv = ".venv"
-
 [tool.hatch.build.targets.wheel]
 packages = ["src/state"]
